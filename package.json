@@ -1,0 +1,22 @@
+{
+	"name": "QuasR",
+	"version": "1.0.0",
+	"description": "The QuasR.io project",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon server.js"
+	},
+	"author": "Fabien Sabatié",
+	"license": "BSD-3-Clause",
+	"dependencies": {
+		"axios": "^0.18.0",
+		"express": "^4.16.4",
+		"mongodb": "^3.2.3",
+		"next": "^8.0.4",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6",
+		"rfr": "^1.2.3",
+		"socket.io": "^2.2.0"
+	}
+}
